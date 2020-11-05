@@ -2,7 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.common.keys import keys
 from time import sleep
 
-driver = webdriver.Chrome(executable_path="/Users/61497/Downloads/chromedriver")
+driver = webdriver.Chrome(executable_path="/Users/Your PC Name Here/Downloads/chromedriver")
 
 driver.get("https://stackoverflow.com/users/signup?ssrc=head&returnurl=%2fusers%2fstory%2fcurrent%27")
 sleep(5)
